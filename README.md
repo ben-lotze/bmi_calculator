@@ -19,7 +19,7 @@ with some adjustments:
 
 **Animation of height and weight**
 
-<img src="https://github.com/uncle-bens-repo/bmi_calculator/blob/master/pictures/bmi_animation.webm" width="300" />
+<img src="https://github.com/uncle-bens-repo/bmi_calculator/blob/master/pictures/bmi_animation.gif" width="300" />
 
 ### State management
 * Normally I use Provider or BLoC, but this project is built entirely using setState.
