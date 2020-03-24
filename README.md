@@ -14,12 +14,12 @@ with some adjustments:
 
 **Input screen**
 
-<img src="https://github.com/uncle-bens-repo/bmi_calculator/blob/pictures/pictures/input.png" width="300" /> <img src="https://github.com/uncle-bens-repo/bmi_calculator/blob/pictures/pictures/result1.png" width="300" /> <img src="https://github.com/uncle-bens-repo/bmi_calculator/blob/pictures/pictures/result2.png" width="300" />
+<img src="https://github.com/uncle-bens-repo/bmi_calculator/blob/master/pictures/input.png" width="300" /> <img src="https://github.com/uncle-bens-repo/bmi_calculator/blob/master/pictures/result1.png" width="300" /> <img src="https://github.com/uncle-bens-repo/bmi_calculator/blob/master/pictures/result2.png" width="300" />
 
 
 **Animation of height and weight**
 
-<img src="https://github.com/uncle-bens-repo/bmi_calculator/blob/pictures/bmi_animation.webm" width="300" />
+<img src="https://github.com/uncle-bens-repo/bmi_calculator/blob/master/pictures/bmi_animation.webm" width="300" />
 
 ### State management
 * Normally I use Provider or BLoC, but this project is built entirely using setState.
