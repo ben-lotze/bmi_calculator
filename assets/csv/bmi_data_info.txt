@@ -1,0 +1,8 @@
+WHO data for children BMI:
+https://www.who.int/growthref/who2007_bmi_for_age/en/
+
+TODO there are also expanded tables!
+PDFs
+https://www.who.int/growthref/bmifa_boys_5_19years_z.pdf
+https://www.who.int/growthref/bmifa_girls_5_19years_z.pdf
+
