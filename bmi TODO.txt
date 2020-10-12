@@ -1,0 +1,24 @@
+- landscape: Widgets need to be more re-usable
+
+- if I keep ListView: Notification for scrolling -> block sliders from updating while scrolling
+- height of rows --> weight/age may not fit on some phones! -> must calculate based on available height
+
+- drawer
+  - About BMI
+  - Genders: incl. info why not more than 2 (no models)
+  - Tips
+  - Settings: (drop downs or radios?)
+    - size unit: cm, inch
+    - weight unit: kg, pound
+    - BMI strategy (info button to the right)
+    - OR: settings screen: strategies could get explained over there (or only for BMI strategy)
+
+result screen
+- input numbers -> BMI big
+- judgement
+- advised weight for your height
+- link to tips
+- maybe show all 4 (or 5) images and a spotlight for active visualization
+
+
+- avg in vis. should be real avg

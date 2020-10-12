@@ -68,6 +68,15 @@ class _NumberInputCardState extends State<NumberInputCard> {
                 onTap: () => _updateAndNotify(newValue: _currentValue - 1, fallbackFunction: widget.onTapMinus),
               ),
 
+              Container(
+                decoration: BoxDecoration(
+
+                ),
+              ),
+              Card(
+
+              ),
+
               RichText(
                 text: TextSpan(
                   children: <TextSpan>[

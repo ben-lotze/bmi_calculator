@@ -2,21 +2,23 @@ import 'dart:convert';
 import 'dart:io';
 
 main() {
-  CsvReader().readFile();
+  CsvSheet().readFile();
 }
 
-
-class CsvReader {
+// TODO extract reading/parsing logic into csv reader
+class CsvSheet {
 
   // load completely into memory
   // iterate
-  // find row with value in specific columnn
+  // find row with value in specific column
   // go to line number x
   // get cell, format to int/String/double, ...
   // getRow -> get by index or find
   // inside row --> get value by column name or index
 
 
+  List<String> columnNames = [];
+  
 
   void readFile() {
 
@@ -24,7 +26,7 @@ class CsvReader {
     Stream<List> inputStream = file.openRead();
 
     int currentLineNumber = 0;
-    List<String> columnNames = [];
+    
     inputStream
         .transform(utf8.decoder)       // Decode bytes to UTF-8.
         .transform(new LineSplitter()) // Convert stream to individual lines.
@@ -36,18 +38,7 @@ class CsvReader {
             print("HEADER: $row");
           }
           else {
-//            String id = row[0];
-//            String symbol = row[1];
-//            String open = row[2];
-//            String low = row[3];
-//            String high = row[4];
-//            String close = row[5];
-//            String volume = row[6];
-//            String exchange = row[7];
-//            String timestamp = row[8];
-//            String date = row[9];
-//            print('$id, $symbol, $open');
-
+            print("ROW:    $row");
             columnNames.forEach((element) {
 
             });

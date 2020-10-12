@@ -10,7 +10,7 @@ with some adjustments:
 * Gender icons grow/shrink according to user input (height/width).
 * Quicker input: Every input has +/- buttons and a slider. Nobody wants to press a plus-button 40 times.
 * Inputs have no title header, but instead use a postfix-label after the number for the unit (kg, years, cm, ...).
-* Male/female toggle buttons use a gradient into the background color on the top. Otherwise the growing height of the icon would look bad inside the card (not filled completely in the beginning, potentially not enough space after growing.
+* Male/female toggle buttons use a gradient into the background color on the top. Otherwise the growing height of the icon would look bad inside the card (not filled completely in the beginning, potentially not enough space on top after growing).
 
 **Input screen**
 
